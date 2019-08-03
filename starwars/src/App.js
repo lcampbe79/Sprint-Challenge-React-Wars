@@ -35,9 +35,7 @@ const App = () => {
           <CharacterCard key={character.name} character={character} />
         )
       }
-
       </div>
-     
     </div>
   );
 }
