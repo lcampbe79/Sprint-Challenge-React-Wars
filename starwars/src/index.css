@@ -5,3 +5,11 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+
+
+.ui.cards>.card {
+  width: 250px;
+  background-color: #E2DBD2;
+  border-color: #8E7964;
+  box-shadow: 5px 10px 20px#8E7964;
+}
