@@ -14,7 +14,7 @@
 
 4. Describe props.
 
---Props (properties) are set from the parent, used like a parameter, you are then able to pass the props into a function (parent to child) so you can share the data between components.
+--Props (properties) are set from the parent, used like a parameter/bag, you are then able to pass the props into a function (parent to child) so you can share the data between components.
 
 5. What are side effects, and how do you sync effects in a React component to state or prop changes?
 
