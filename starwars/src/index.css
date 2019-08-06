@@ -1,3 +1,8 @@
+/* background-color: #E2DBD2; */
+/* border-color: #8E7964; */
+/* box-shadow: 5px 10px 20px #C4CFDF; */
+/* #E2DBD2 */
+
 body {
   margin: 0;
   padding: 0;
@@ -6,11 +11,27 @@ body {
   background-size: cover;
 }
 
+.Header {
+  font-size: 50px;
+}
+
+.Loading {
+  font-size: 100px;
+  margin-top: 150px;
+}
+
+.CardContainer {
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 60px 30px 0 30px;
+}
 
 
 .ui.cards>.card {
-  width: 250px;
   background-color: #E2DBD2;
-  border-color: #8E7964;
-  box-shadow: 5px 10px 20px#8E7964;
+  border-color: #92AEC8;
+  box-shadow: 5px 10px 20px #8E7964;
 }

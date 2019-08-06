@@ -3,7 +3,7 @@ import { Card } from 'semantic-ui-react';
 
 export default function CharacterCard(props) {
   return (  
-    <Card.Group className='mainCard'>
+    <Card.Group>
       <Card>
         <Card.Content className='cardContent'>
           <Card.Header>{props.character.name}</Card.Header>

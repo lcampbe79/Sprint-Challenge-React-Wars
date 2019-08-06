@@ -23,15 +23,15 @@ const App = () => {
     .catch(error => console.log('There was an error: ', error))
   }, [])
 
-  if (!characters) { return <div>loading</div> }
+  
   console.log('Character info: ', characters)
-
+  if (!characters)  return <div className='Loading'>Loading.....</div> 
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      <div className="CardRow">
+      <div className="CardContainer">
       {
-        Object.values(characters).map(character =>
+        characters.map(character =>
           <CharacterCard key={character.name} character={character} />
         )
       }
